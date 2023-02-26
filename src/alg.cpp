@@ -9,8 +9,7 @@ bool checkPrime(uint64_t value) {
         if (value % i == 0) {
             check = false;
             break;
-        }
-        else {
+        } else {
             check = true;
         }
     }
