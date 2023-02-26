@@ -22,6 +22,8 @@ uint64_t nPrime(uint64_t n) {
             if (n == i) {
                 return count;
             }
+        }else{
+            return false;
         }
     }
 }
